@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+
+}
+.counter-box{
+  background-image: url(images/team.png);
+  background-size: cover;
+  max-width: 700px;
+  min-height: 500px;
+  background-color: aquamarine;
+  margin: 50px auto;
+  position: relative;
+}
+.ball-header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 15px 228px;
+  text-align: center; 
+}
+.ball-header h1 {
+  display: inline-block;
+  color: white;
+  background-color: rgb(48, 65, 65);
+  ;
+  padding: 10px 30px;
+  margin: 20px 0;
+}
+.ball-header p{
+  display: inline-block;
+  background-color: rgb(149, 155, 155);
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin: 30px 0;
+}
+.ball-header h1:hover {
+  background-color: black;
+}
+.ball-header h2:hover{
+  background-color: rgb(32, 48, 25);
+}
+.ball-header h2{
+  display: inline-block;
+  color: white;
+  background-color: rgb(36, 112, 93);
+  border-radius: 50%;
+  padding: 16px 25px;
+  margin: 20px 0;
+}
+.ball-header h5{
+  color: rgb(250, 253, 255);
+  margin: 25px 0px;
+}
+.btn{
+  color: azure;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: rgb(126, 118, 110);
+  padding: 15px 80px;
+  border-radius: 5px;
+  border: none;
+}
+.btn:hover{
+  background-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .ball-header {
+    margin: 20px 66px; 
+    
+  }
+}
+
